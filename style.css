@@ -1,0 +1,7 @@
+#cam, #snap{
+    height: 240px;
+    width: 280px;
+}
+body{
+    background: linear-gradient(lavender, skyblue);
+}

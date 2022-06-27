@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>EXPRESSIONS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <script src="main.js"></script>
+    
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <center>
+            <div class="btn btn-info">
+                <h2>THE HAND EXPRESSION APP</h2>
+                <br>
+                <span>&#128076</span>
+                <span>&#9996</span>
+                <span>&#128077</span>
+            </div>
+            <p style="font-size: 25px;">Take your selfie to generate the hand expression and just enjoy the app :)
+              
+              <br>
+              <button id="b1" onclick="snapshot()" CLASS="btn btn-primary">TAKE A SNAPSHOT</button>
+              <button id="b2" onclick="check()" CLASS="btn btn-success">IDENTIFY THE SNAPSHOT</button>
+            </p>
+      
+       <div class="col-md-4 col-sm-12 col-xs-12">
+                <label>CAMERA - </label>
+      <div id="cam">     
+      
+      </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+            <h4 class="g">Prediction 1 - </h4>
+            <br>
+            <label id="e11"></label>
+            <br
+            <h4 id="e12"></h4>
+            <br><br>
+            <h4 class="g">Prediction 2 - </h4>
+            <br>
+            <label id="e21"></label>
+            <br>
+            <h4 id="e22"></h4></div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <label>SNAPSHOT - </label>
+        <div id="snap">  
+        </div>
+        </div>
+                <br><br>
+        
+              </div>
+            </div>
+      
+          </center>
+      
+        </body>
+      </html>
+      
+       
+        </center>
+    </body>
+
+</html>
+    
